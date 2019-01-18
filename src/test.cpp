@@ -13,8 +13,12 @@ int main(int argc, char *argv[])
 	}
 	std::vector<int> vTest{1,2,3,4,5,6,7,8,9};
 	std::sort(std::begin(vTest),std::end(vTest),std::greater<int>());
+<<<<<<< HEAD
 	std::copy(std::begin(vTest),std::end(vTest),std::ostream_iterator<int>(std::cout,"\t"));
 	std::copy(std::rbegin(vTest),std::rend(vTest),std::ostream_iterator<int>(std::cout,"\t"));
+=======
+	std::copy(std::begin(vTest),std::end(vTest),std::ostream_iterator<int>(std::cout,"\n"));
+>>>>>>> develop
 	std::cout<<std::endl;
 	return 0;
 }
