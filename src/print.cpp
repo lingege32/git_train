@@ -7,6 +7,9 @@
  ********************************************************/
 void printVec(const std::vector<int> v)
 {
+	for(auto& x:v)
+		std::cout<<x<<"\t";
+	std::cout<<"\n";
 } /* void printVec(const std::vector<int> v;) */
 
 /********************************************************
